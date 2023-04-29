@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DashBoard/Admin</title>
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/bootstrap/bootstrap.css">
+    <script src="../scripts/auth/userAuthentication.js" type="module"></script>
+    <style>
+        .active {
+            color: #51a33d !important;
+        }
+
+        #logout {
+            color: #51a33d !important;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="../images/logo-lg.svg" alt="" srcset=""></a>
+            <button class="navbar-toggler border-2 border-success" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown">
+                <i class="fa-solid fa-bars " style="color: #51a33d;"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="dashboard.html">Waiting Users</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="fullReport.html">Full Report</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="lateReport.html">Late Report</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="excuseReport.html">Excuse Report</a>
+                    </li>
+                </ul>
+                <button class="btn btn-outline-success text-light" id="logout">Logout</button>
+
+            </div>
+        </div>
+    </nav>
+    <div id="body-content " class="container" style="padding-top: calc(3.5rem + 10px);">
+        <table class="table table-hover caption-top">
+            <caption class="h5">Waiting Users</caption>
+            <thead class="table-dark">
+                <tr>
+                    <th>#</th>
+                    <th>First</th>
+                    <th>Last</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="../scripts/bootstrap/bootstrap.bundle.js"></script>
+    <script src="../scripts/dashboard/dashboard.js" type="module"></script>
+    <script src="../scripts/auth/logout.js" type="module"></script>
+
+</body>
+
+</html>

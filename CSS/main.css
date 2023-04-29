@@ -1,0 +1,98 @@
+:root {
+
+    --bg-color: #eee;
+    --main-color: #51a33d;
+    --text-color: #555;
+    --top-content-margin: 5.5rem;
+}
+
+.content {
+    margin-top: var(--top-content-margin);
+    color: var(--text-color);
+}
+
+.navbar-toggler:hover,
+.navbar-brand:hover {
+    margin-top: 2px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0;
+}
+
+.active {
+    color: var(--main-color) !important;
+}
+
+button {
+    background-color: var(--main-color) !important;
+    border: none !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.navbar-toggler {
+    background-color: white !important;
+    border: 2px solid var(--main-color) !important;
+}
+
+.dropdown-menu .dropdown-item {
+    cursor: pointer;
+}
+
+i {
+    color: #51a33d;
+}
+
+table thead {
+    color: var(--main-color);
+}
+
+table caption {
+    text-align: center;
+    border: 1px solid;
+    color: white;
+    background-color: var(--main-color);
+}
+
+table tbody tr:nth-child(even) {
+    background-color: var(--main-color);
+    color: white;
+}
+
+.form-control:focus,
+select:focus,
+input[type=checkbox] {
+    box-shadow: none !important;
+}
+
+input::selection {
+    background-color: #51a33d;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+footer {
+    margin-top: 1rem;
+}
+
+.footer-copy ul li {
+    display: inline-block;
+    font-weight: 400;
+}
+
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul a {
+    margin: 5px;
+    color: #555 !important;
+    text-decoration: none;
+}
