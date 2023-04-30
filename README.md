@@ -36,4 +36,4 @@ Contributions are welcome! Please fork the repository and create a pull request 
 
 This project is hosted on GitHub Pages. Access it using the following link:
 
-https://khaledmohamedagwa1.github.io/iti-front-end-project/
+https://khaledmohamedagwa1.github.io/Attendance_System/
