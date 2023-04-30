@@ -14,7 +14,7 @@ An attendance system built using HTML, CSS, JavaScript, ES.Next, Bootstrap, loca
 
 ## Installation
 
-1. Clone the repository: 📥 `git clone https://github.com/your-username/attendance-system.git`
+1. Clone the repository: 📥 `git clone https://github.com/khaledmohamedagwa1/attendance-system
 2. Open the project folder in your preferred code editor.
 3. Open the `index.html` file in your preferred web browser.
 
