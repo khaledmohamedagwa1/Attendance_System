@@ -5,5 +5,5 @@ let logout = document.getElementById("logout");
 logout.addEventListener("click", function () {
   console.log("logOut Found");
   session.setSession(currentUser);
-  location.href = constant.loginUrl;
+  location.replace("index.html");
 });
